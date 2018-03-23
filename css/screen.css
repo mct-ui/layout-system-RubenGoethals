@@ -213,19 +213,29 @@ a:hover, a:focus {
 
 /* gutter modifiers, these affect o-layout__item too */
 
-.o-layout--gutter {}
+.o-layout--gutter {
+  margin: 0 -12px;
+}
 
 .o-layout--gutter>.o-layout__item {
   padding: 0 12px;
 }
 
-.o-layout--gutter-sm {}
+.o-layout--gutter-sm {
+  margin: 0 -6px;
+}
 
-.o-layout--gutter-sm>.o-layout__item {}
+.o-layout--gutter-sm>.o-layout__item {
+  padding: 0 6px;
+}
 
-.o-layout--gutter-lg {}
+.o-layout--gutter-lg {
+  margin: 0 -24px;
+}
 
-.o-layout--gutter-lg>.o-layout__item {}
+.o-layout--gutter-lg>.o-layout__item {
+  padding: 0 24px;
+}
 
 /* reverse horizontal row modifier */
 
@@ -334,7 +344,7 @@ a:hover, a:focus {
 }
 
 .u-1-of-3 {
-  width: 33, 3333333333% !important;
+  width: 33.3333333333% !important;
 }
 
 .u-2-of-3 {
