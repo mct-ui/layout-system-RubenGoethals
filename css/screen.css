@@ -177,6 +177,18 @@ a:hover, a:focus {
   }
 }
 
+/*
+    Objects: Container
+    ---
+    Creates a horizontal container that sets de global max-width
+*/
+
+.o-container {
+  /* 1440px / 16 = 90em*/
+  max-width: 90em;
+  margin: 0 auto;
+}
+
 /*------------------------------------*\
   #COMPONENTS
 \*------------------------------------*/
