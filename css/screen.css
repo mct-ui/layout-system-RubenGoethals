@@ -210,7 +210,23 @@ a:hover, a:focus {
 */
 
 .u-max-width-sm {
-  max-width: 36em;
+  max-width: 36em !important;
+}
+
+.u-max-width-md {
+  max-width: 45em !important;
+}
+
+.u-max-width-lg {
+  max-width: 60em !important;
+}
+
+.u-max-width-xl {
+  max-width: 75em !important;
+}
+
+.u-max-width-none {
+  max-width: none !important;
 }
 
 /*
